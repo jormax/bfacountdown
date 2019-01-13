@@ -85,7 +85,7 @@ function Inv(nextcount) {
   weekday[4] = "星期四";
   weekday[5] = "星期五";
   weekday[6] = "星期六";
-  var outstr = a[n + 1 + nextcount] + "    " + weekday[nextInvasion.getDay()] + "   " + ampm;
+  var outstr = a[n +  nextcount] + "    " + weekday[nextInvasion.getDay()] + "   " + ampm;
   return outstr;
 }
 
