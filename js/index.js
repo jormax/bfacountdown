@@ -16,10 +16,9 @@ function test() {
   "祖達薩"];
 
   if (l < 7) {
-    console.log("正在入侵：", a[n], "剩餘：", display(Math.floor((7 - l) * 60 * 60)));
-    var s = "正在入侵：[" + a[n] + "]，剩餘時間：" + display(Math.floor((7 - l) * 60 * 60));
+
     ReactDOM.render(
-    "正在入侵",
+    "正在入侵！！小游快上線！！！",
     document.getElementById('state'));
 
 
@@ -34,8 +33,6 @@ function test() {
 
     console.log(s);
   } else {
-    console.log("下次入侵：", a[n + 1], "倒數：", display(Math.floor((19 - l) * 60 * 60)));
-    var s = "下次入侵：[" + a[n + 1] + "]，倒數：" + display(Math.floor((19 - l) * 60 * 60));
     ReactDOM.render(
     "下次入侵",
     document.getElementById('state'));
