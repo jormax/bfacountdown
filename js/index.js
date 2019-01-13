@@ -29,9 +29,6 @@ function test() {
     ReactDOM.render(
     display(Math.floor((7 - l) * 60 * 60)),
     document.getElementById('countdown'));
-
-
-    console.log(s);
   } else {
     ReactDOM.render(
     "下次入侵",
