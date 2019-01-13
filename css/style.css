@@ -23,6 +23,11 @@ div {
   background-color: #f25252;
 }
 
+.next {
+  padding: 30pt;
+  background-color: #f2c12e;
+}
+
 #location {
   color: #fff;
   font-size: 140px;
