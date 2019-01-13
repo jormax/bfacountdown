@@ -11,7 +11,7 @@ div {
   margin: auto;
   text-align: center;
   font-family: 微軟正黑體;
-  font-size: 40pt;
+  font-size: 20pt;
   width: 70%;
   border-radius: 10pt;
   padding: 10pt;
@@ -31,4 +31,8 @@ div {
 #countdown {
   color: #fff;
   font-size: 140px;
+}
+
+#list {
+  color: #f29d35;
 }
