@@ -2,7 +2,7 @@ var myVar = setInterval(test, 1000);
 
 function test() {
   var t = new Date().getTime();
-  var d = Math.floor(t / 1000);
+  var d = t / 1000;
   var h = (d - 1545170400) / 3600;
   var n = Math.floor(h / 19 % 6);
   var l = h % 19;
