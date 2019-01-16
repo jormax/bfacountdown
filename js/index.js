@@ -75,6 +75,10 @@ function Inv(nextcount) {
   var now = Math.floor(new Date().getTime() / 1000);
   var ttt = Math.floor(now - start);
   var k = Math.floor(ttt / 3600 / 19) + nextcount;
+    var tn= n;
+  if (tn=5) {
+    tn=0}
+  ;
   var nextInvasion = new Date((start + k * 3600 * 19) * 1000);
   var ampm = nextInvasion.getHours() >= 12 ? nextInvasion.getHours() + ':00 PM' : nextInvasion.getHours() + ':00 AM';
   var weekday = new Array(7);
@@ -85,7 +89,7 @@ function Inv(nextcount) {
   weekday[4] = "星期四";
   weekday[5] = "星期五";
   weekday[6] = "星期六";
-  var outstr = a[n +  nextcount] + "    " + weekday[nextInvasion.getDay()] + "   " + ampm;
+  var outstr = a[tn +  nextcount] + "    " + weekday[nextInvasion.getDay()] + "   " + ampm;
   return outstr;
 }
 
