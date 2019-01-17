@@ -76,8 +76,8 @@ function Inv(nextcount) {
   var ttt = Math.floor(now - start);
   var k = Math.floor(ttt / 3600 / 19) + nextcount;
     var tn= n;
-  if (tn=5) {
-    tn=0}
+  if (tn>=5) {
+    tn=tn-5;}
   ;
   var nextInvasion = new Date((start + k * 3600 * 19) * 1000);
   var ampm = nextInvasion.getHours() >= 12 ? nextInvasion.getHours() + ':00 PM' : nextInvasion.getHours() + ':00 AM';
