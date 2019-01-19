@@ -90,7 +90,7 @@ function Inv(nextcount) {
   if ( tn+nextcount>6 )  {
     tn = tn - 4 ;
   }
-  var outstr = tn + " " + nextcount + " " + a[tn +  nextcount] + "    " + weekday[nextInvasion.getDay()] + "   " + ampm;
+  var outstr = a[tn +  nextcount] + "    " + weekday[nextInvasion.getDay()] + "   " + ampm;
   return outstr;
 }
 
